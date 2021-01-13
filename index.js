@@ -26,4 +26,4 @@ const timeToLaunch = new Date().getTime() - appStartedLaunchingAt
 
 const Navigation = createNavigation({ database, timeToLaunch })
 
-AppRegistry.registerComponent('App', () => Navigation)
+AppRegistry.registerComponent('app', () => Navigation)
